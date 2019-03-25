@@ -4,7 +4,7 @@
   "description": "Parser of multipart/form-data requests for AWS Lambda",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.test.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "form-data",
     "formdata",
     "parser"
-  ]
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
 }
